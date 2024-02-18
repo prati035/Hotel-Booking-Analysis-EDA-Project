@@ -60,25 +60,25 @@ We are given a hotel bookings dataset. This dataset contains booking information
 
 ## Data Cleaning
 
-```
+
 ### (1) Removing duplicate rows if any
-
+```
 All duplicate rows were dropped.
-
+```
 ### (2) Handling missing values
-
+```
 - Null values in columns 'company','agent', 'country' and 'children' were replaced by 0.
 - There are some rows with total number of 'adults' , 'children' and 'babies' is equal to zero. So we will remove such rows is equal 0.
-
+```
 
 ### (3) Converting columns to appropriate data types
-
+```
 - Changed data type of `children`, `company`, `agent` float to int type.
 - Changed data type of 'reservation_status_date' to datetime format.
-
+```
 
 ### (5) Adding important columns
-
+```
 - Creating new column `Total_stay_in_nights` by adding `stays_in_weekend_nights`+`stays_in_week_nights`.
 - Creating new column `Total_people` by adding `adults`+`children`+`babies`.
 ```
