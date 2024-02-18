@@ -13,11 +13,11 @@ Dataset Source : Provided by Almabetter themself.
 
 
 ## Objective
-```
+
 We are provided with a hotel bookings dataset.
 
 The main purpose of this study is to perform EDA on the given dataset and draw useful conclusions about the trends in hotel bookings and how factors that control hotel bookings influence each other.
-```
+
 ## Dataset
 We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 ```
